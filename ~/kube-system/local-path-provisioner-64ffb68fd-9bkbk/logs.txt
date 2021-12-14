@@ -1,0 +1,4 @@
+==== START logs for container local-path-provisioner of pod kube-system/local-path-provisioner-64ffb68fd-9bkbk ====
+I1211 06:22:33.994790       1 controller.go:773] Starting provisioner controller rancher.io/local-path_local-path-provisioner-64ffb68fd-9bkbk_6b4c5a12-c66e-4022-82bb-cdb8bd97d6fb!
+I1211 06:22:34.096050       1 controller.go:822] Started provisioner controller rancher.io/local-path_local-path-provisioner-64ffb68fd-9bkbk_6b4c5a12-c66e-4022-82bb-cdb8bd97d6fb!
+==== END logs for container local-path-provisioner of pod kube-system/local-path-provisioner-64ffb68fd-9bkbk ====

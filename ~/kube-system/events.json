@@ -1,0 +1,71 @@
+{
+    "kind": "EventList",
+    "apiVersion": "v1",
+    "metadata": {
+        "resourceVersion": "365657"
+    },
+    "items": [
+        {
+            "metadata": {
+                "name": "kube-vip-f96xr.16bf9f2530d4a3a1",
+                "namespace": "kube-system",
+                "uid": "fac50d90-e7b2-4fbc-b36b-fdc456c641fa",
+                "resourceVersion": "365000",
+                "creationTimestamp": "2021-12-11T06:22:51Z"
+            },
+            "involvedObject": {
+                "kind": "Pod",
+                "namespace": "kube-system",
+                "name": "kube-vip-f96xr",
+                "uid": "df29eaed-de40-4bfc-97b9-7d4fdf7ebb4f",
+                "apiVersion": "v1",
+                "resourceVersion": "1847",
+                "fieldPath": "spec.containers{kube-vip}"
+            },
+            "reason": "BackOff",
+            "message": "Back-off restarting failed container",
+            "source": {
+                "component": "kubelet",
+                "host": "k8s-3"
+            },
+            "firstTimestamp": "2021-12-11T06:22:51Z",
+            "lastTimestamp": "2021-12-11T23:18:00Z",
+            "count": 4680,
+            "type": "Warning",
+            "eventTime": null,
+            "reportingComponent": "",
+            "reportingInstance": ""
+        },
+        {
+            "metadata": {
+                "name": "kube-vip-slgmj.16bf9f1eb1d1fef2",
+                "namespace": "kube-system",
+                "uid": "8fb278fb-8f6e-4806-bbe7-450d8aa73129",
+                "resourceVersion": "364780",
+                "creationTimestamp": "2021-12-11T06:22:23Z"
+            },
+            "involvedObject": {
+                "kind": "Pod",
+                "namespace": "kube-system",
+                "name": "kube-vip-slgmj",
+                "uid": "b2004f0f-c853-452f-ba9e-ec69597af439",
+                "apiVersion": "v1",
+                "resourceVersion": "1595",
+                "fieldPath": "spec.containers{kube-vip}"
+            },
+            "reason": "BackOff",
+            "message": "Back-off restarting failed container",
+            "source": {
+                "component": "kubelet",
+                "host": "k8s-4"
+            },
+            "firstTimestamp": "2021-12-11T06:22:23Z",
+            "lastTimestamp": "2021-12-11T23:17:23Z",
+            "count": 4666,
+            "type": "Warning",
+            "eventTime": null,
+            "reportingComponent": "",
+            "reportingInstance": ""
+        }
+    ]
+}

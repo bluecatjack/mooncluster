@@ -1,0 +1,6 @@
+==== START logs for container coredns of pod kube-system/coredns-85cb69466-4nb89 ====
+.:53
+[INFO] plugin/reload: Running configuration MD5 = 442b35f70385f5c97f2491a0ce8a27f6
+CoreDNS-1.8.4
+linux/amd64, go1.16.4, 053c4d5
+==== END logs for container coredns of pod kube-system/coredns-85cb69466-4nb89 ====

@@ -1,0 +1,6 @@
+==== START logs for container kube-vip of pod kube-system/kube-vip-f96xr ====
+time="2021-12-11T23:16:55Z" level=info msg="server started"
+time="2021-12-11T23:16:55Z" level=info msg="Starting Kube-vip Manager with the ARP engine"
+time="2021-12-11T23:16:55Z" level=info msg="Namespace [kube-system], Hybrid mode [false]"
+time="2021-12-11T23:16:55Z" level=fatal msg="starting new Manager error -> could not get link for interface 'enp2s0': Link not found"
+==== END logs for container kube-vip of pod kube-system/kube-vip-f96xr ====
